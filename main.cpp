@@ -6,7 +6,7 @@
 /*   By: adbenoit <adbenoit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 14:44:23 by adbenoit          #+#    #+#             */
-/*   Updated: 2023/01/31 12:14:43 by adbenoit         ###   ########.fr       */
+/*   Updated: 2023/02/01 16:47:12 by adbenoit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,6 @@ int	main()
 
 	signal(SIGINT, sig_handler);
 	signal(SIGQUIT, sig_handler);
-	signal(SIGKILL, sig_handler);
-	signal(SIGABRT, sig_handler);
 	signal(SIGTERM, sig_handler);
 	try {
 		create_env(&fd_lock);
