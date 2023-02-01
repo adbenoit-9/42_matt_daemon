@@ -21,5 +21,5 @@ $ nc localhost 4242
 quit
 ```
 
-
+\
 *In collaboration with [codebrai](https://github.com/codebrai) 🔥*
